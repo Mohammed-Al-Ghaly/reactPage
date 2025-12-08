@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 2s ease-in-out infinite alternate;
+}
